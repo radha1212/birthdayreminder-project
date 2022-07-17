@@ -5,7 +5,9 @@
 }
 
 body {
-    background-color: palevioletred;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f28ab2;
+    color: hsl(209, 61%, 16%);
     line-height: 1.5;
     font-size: 0.875rem;
 }
@@ -15,6 +17,14 @@ h4 {
     letter-spacing: 0.1rem;
     text-transform: capitalize;
     line-height: 1.25;
+    font-size: 0.875rem;
+}
+
+h3 {
+    font-size: 0.875rem;
+}
+
+h4 {
     font-size: 0.875rem;
 }
 
@@ -47,10 +57,10 @@ main {
 }
 
 .container {
-    width: 50vw;
+    width: 90vw;
     margin: 5rem 0;
     max-width: 450px;
-    background: rgb(239, 121, 204);
+    background: #fff;
     border-radius: 0.25rem;
     padding: 1.5rem, 2rem;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
@@ -87,15 +97,14 @@ container h3 {
 }
 
 .container button {
-    color: rgb(188, 0, 109);
+    color: #fff;
     display: black;
     width: 100%;
     border-color: transparent;
-    background: #f6f2f4;
-    margin: 2rem auto 3rem auto;
+    background: #f28ab2;
+    margin: 2rem auto 0 auto;
     text-transform: capitalize;
     font-size: 1.2rem;
-    font-weight: 800;
     padding: 0.5rem 0;
     letter-spacing: 0.1rem;
     border-radius: 0.25rem;
